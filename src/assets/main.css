@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Montserrat;
+        src: url('./fonts/Montserrat/static/Montserrat-Medium.ttf');
+        font-family: MontserratBold;
+        src: url('./fonts/Montserrat/static/Montserrat-Bold.ttf');
+      }
+      .FONT-BOLD{
+        font-family: MontserratBold;
+      }
+      .FONT{
+        font-family: Montserrat;
+      }
+    .BG{
+      background-color: #25344F;
+    }
+    .BTN-COLOR{
+      background-color: #23A6F0;
+    }
+    .TEXT-COLOR{
+      color: #60C6FF;
+    }
+  }
