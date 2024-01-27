@@ -3,7 +3,7 @@ import Header from '@/components/Header.vue';
 </script>
 
 <template>
-  <main class="FONT">
+  <main class="FONT w-full">
     <Header/>
   </main>
 </template>
