@@ -4,11 +4,13 @@
 
 @layer base {
     @font-face {
-        font-family: Montserrat;
-        src: url('./fonts/Montserrat/static/Montserrat-Medium.ttf');
         font-family: MontserratBold;
         src: url('./fonts/Montserrat/static/Montserrat-Bold.ttf');
       }
+    @font-face {
+      font-family: Montserrat;
+        src: url('./fonts/Montserrat/static/Montserrat-Medium.ttf');
+    }
       .BG-IMG{
         background-image: url('../../public/angelo-abear-knTKij60p3g-unsplash.jpg');
         background-position: center;
@@ -30,5 +32,8 @@
     }
     .TEXT-COLOR{
       color: #60C6FF;
+    }
+    .TEXT-COLOR-DARK{
+      color: #25344F;
     }
   }
