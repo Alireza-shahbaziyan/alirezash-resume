@@ -4,7 +4,7 @@ const store = useStore()
 const user = store.$state.user
 </script>
 <template>
-    <div class="BG w-full min-h-screen flex flex-col justify-center items-center">
+    <div style="height: 85vh;" class="BG w-full flex flex-col justify-center items-center ">
         <div class="md:w-2/3 lg:w-9/12 w-11/12 md:h-auto md:pt-auto ">
             <div class="w-full md:w-auto">
                 <h1 class="text-5xl md:text-6xl lg:text-7xl text-center FONT-BOLD">{{ user?.name }} <span class="md:inline-block">{{ user?.lastName }}</span></h1>
@@ -16,11 +16,9 @@ const user = store.$state.user
             <a class="rounded-full sm:btn-sm md:btn-md lg:btn-lg btn btn-info text-white m-2">Book a Call<i class="bi bi-arrow-right"></i> </a>
             <a class="rounded-full sm:btn-sm md:btn-md lg:btn-lg btn btn-ghost border border-white m-2 text-white">My Work<i class="bi bi-arrow-right"></i> </a>
     </div>
-    <div class="w-10/12 hidden md:inline-block">
-        <div class="divider mt-12 ">
-            <img class=" md:w-6" src="../../public/typescript.png" alt="typescript">
-            +<img class="md:w-6" src="../../public/Vue.js_Logo_2.svg" alt="vue-js">
-            +<img class="md:w-6" src="../../public/Tailwind_CSS_Logo.svg" alt="Tailwind">
+    <div class="w-full md:w-10/12 text-xs">
+        <div class="divider mt-12 text-gray-400">
+            Proficient in the most modern tools
         </div>
       </div>
     </div>
@@ -28,4 +26,5 @@ const user = store.$state.user
 <style scoped>
 .divider:before{background-color: #9BA3AF;}
 .divider:after{background-color: #9BA3AF;}
+
 </style>
