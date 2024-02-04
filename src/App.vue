@@ -3,7 +3,7 @@ import NavigationBar from './components/NavigationBar.vue';
 </script>
 
 <template>
-  <div class="FONT">
+  <div class="FONT bg-white">
     <NavigationBar/>
 </div>
 </template>
