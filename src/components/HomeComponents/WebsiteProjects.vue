@@ -5,12 +5,12 @@
         <div class="flex flex-col md:flex-row justify-around items-center w-full">
 
             <div style="background-color: #0a7977;" class="my-10 project-card rounded-md w-11/12 h-96 md:w-5/12 flex flex-col md:flex-row justify-center items-center ">
-                <img class=" rounded-md" src="../../public/Projects/Concept | Pre-Raphaelite art exhibition landing page.jpg"
+                <img class=" rounded-md" src="../../../public/Projects/Concept | Pre-Raphaelite art exhibition landing page.jpg"
                     alt="">
             </div>
 
             <div  class="my-10 project-card bg-cyan-600 rounded-md w-11/12 h-96 md:w-5/12 flex flex-col md:flex-row justify-center items-center ">
-                <img class=" rounded-md" src="../../public/Projects/Photo Studio Website.jpg"
+                <img class=" rounded-md" src="../../../public/Projects/Photo Studio Website.jpg"
                     alt="">
             </div>
         </div>
@@ -18,12 +18,12 @@
         <div class="flex flex-col md:flex-row justify-around items-center w-full ">
 
             <div style="background-color: #8a8a8a;" class="my-10 project-card rounded-md w-11/12 h-96 md:w-5/12 flex flex-col md:flex-row justify-center items-center ">
-                <img class=" rounded-md" src="../../public/Projects/The Louvre Museum Redesign Concept.jpg"
+                <img class=" rounded-md" src="../../../public/Projects/The Louvre Museum Redesign Concept.jpg"
                     alt="">
             </div>
 
             <div class="my-10 project-card bg-yellow-500 rounded-md w-11/12 h-96 md:w-5/12 flex flex-col md:flex-row justify-center items-center ">
-                <img class=" rounded-md" src="../../public/Projects/Website Banner Design.jpg"
+                <img class=" rounded-md" src="../../../public/Projects/Website Banner Design.jpg"
                     alt="">
             </div>
         </div>

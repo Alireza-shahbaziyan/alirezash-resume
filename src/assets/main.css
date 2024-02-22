@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  body{
+    background-color: #fff;
+  }
     @font-face {
         font-family: MontserratBold;
         src: url('./fonts/Montserrat/static/Montserrat-Bold.ttf');
@@ -36,5 +39,6 @@
     .TEXT-COLOR-DARK{
       color: #25344F;
     }
+    
     
   }

@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import Header from '@/components/Header.vue';
-import GrowthPartner from '@/components/GrowthPartner.vue';
-import Footer from '@/components/Footer.vue';
-import Testimonials from '@/components/Testimonials.vue';
-import WebsiteProjects from '@/components/WebsiteProjects.vue';
-import RecentPosts from '@/components/RecentPosts.vue';
-import HelpYou from '@/components/HelpYou.vue'
+import Header from '@/components/HomeComponents/Header.vue';
+import GrowthPartner from '@/components/HomeComponents/GrowthPartner.vue';
+import Testimonials from '@/components/HomeComponents/Testimonials.vue';
+import WebsiteProjects from '@/components/HomeComponents/WebsiteProjects.vue';
+import RecentPosts from '@/components/HomeComponents/RecentPosts.vue';
+import HelpYou from '@/components/HomeComponents/HelpYou.vue'
 </script>
 
 <template>
@@ -16,6 +15,5 @@ import HelpYou from '@/components/HelpYou.vue'
     <WebsiteProjects/>
     <RecentPosts/>
     <HelpYou/>
-    <Footer/>
   </main>
 </template>

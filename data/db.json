@@ -1,0 +1,77 @@
+{
+    "user":{
+        "name":"Alireza",
+        "lastName":"Shahbaziyan",
+        "position":"front-end",
+        "age":2001,
+        "about":"The responsibility of a front-end developer is to design and develop a responsive user interface for software",
+        "email":"info@alirezash.top"
+    },
+    "work_examples": [
+        {
+            "id": 1,
+            "title": "Sample Project 1",
+            "date": "2024-02-07",
+            "image": "https://example.com/image1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec lorem ac sem lacinia rhoncus.",
+            "maker": "John Doe",
+            "source_code": "https://github.com/example/project1",
+            "email": "john@example.com",
+            "link": "https://example.coma/"
+        },
+        {
+            "id": 2,
+            "title": "Sample Project 2",
+            "date": "2024-02-08",
+            "image": "https://example.com/image2.jpg",
+            "description": "Nullam nec diam in mauris consequat suscipit vel vel velit. Curabitur eget eleifend leo.",
+            "maker": "Jane Smith",
+            "source_code": "https://github.com/example/project2",
+            "email": "jane@example.com",
+            "link": "https://example.coma/"
+        },
+        {
+            "id": 3,
+            "title": "Sample Project 3",
+            "date": "2024-02-09",
+            "image": "https://example.com/image3.jpg",
+            "description": "Praesent vitae eros odio. Duis tincidunt posuere mauris, nec rutrum ex pharetra eu.",
+            "maker": "Alice Johnson",
+            "source_code": "https://github.com/example/project3",
+            "email": "alice@example.com",
+            "link": "https://example.coma/"
+        }
+    ],
+    "post": [
+        {
+            "id": 1,
+            "title": "First Post",
+            "date": "2024-02-07",
+            "image": "https://example.com/image1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec lorem ac sem lacinia rhoncus.",
+            "maker": "John Doe",
+            "email": "john@example.com",
+            "source": "https://example.com/source1"
+        },
+        {
+            "id": 2,
+            "title": "Second Post",
+            "date": "2024-02-08",
+            "image": "https://example.com/image2.jpg",
+            "description": "Nullam nec diam in mauris consequat suscipit vel vel velit. Curabitur eget eleifend leo.",
+            "maker": "Jane Smith",
+            "email": "jane@example.com",
+            "source": "https://example.com/source2"
+        },
+        {
+            "id": 3,
+            "title": "Third Post",
+            "date": "2024-02-09",
+            "image": "https://example.com/image3.jpg",
+            "description": "Praesent vitae eros odio. Duis tincidunt posuere mauris, nec rutrum ex pharetra eu.",
+            "maker": "Alice Johnson",
+            "email": "alice@example.com",
+            "source": "https://example.com/source3"
+        }
+    ]
+}
